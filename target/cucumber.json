@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5243789823,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "IdButtons In Facebook",
+        "description": "",
+        "id": "capturing-idbuttons-in-facebook-login-page;idbuttons-in-facebook",
+        "after": [
+          {
+            "result": {
+              "duration": 918670316,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5251419650,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I Have a Chrome Browser Opened",
+            "match": {
+              "location": "IdCaptureStepDefs.step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 116518,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Facebook Login Page",
+            "match": {
+              "location": "IdCaptureStepDefs.facebookWhen()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117725,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Capture all Id\u0027s in loginPage",
+            "match": {
+              "location": "IdCaptureStepDefs.facebookAnd()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10304858627,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Quit the Chrome Browser",
+            "match": {
+              "location": "IdCaptureStepDefs.facebookThen()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Capturing IdButtons In Facebook Login Page",
+    "description": "",
+    "id": "capturing-idbuttons-in-facebook-login-page",
+    "keyword": "Feature",
+    "uri": "IdCapture.feature"
+  }
+]
