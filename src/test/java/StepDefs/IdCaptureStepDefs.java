@@ -5,6 +5,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.By;
 
 import static StepDefs.Hooks.ScShot;
 import static StepDefs.Hooks.driver;
@@ -72,9 +73,18 @@ public class IdCaptureStepDefs
         System.out.println(driver.getTitle() + "\n");
         Assert.assertEquals(true, driver.getTitle().contains("Facebook"));
         FacebookLoginPage flp = new FacebookLoginPage();
-       flp.enterEmail("panga.vl1@gmail.com");
-         flp.pwd("Test@123!");
+       //flp.enterEmail("panga.vl1@gmail.com");
+        // flp.pwd("Test@123!");
+        flp.myActions(driver);
+        flp.checkDropDown(8,"6","1979");
+        //System.out.println(flp.dayOption.getText());
+        //System.out.println(driver.findElement(By.xpath("//select[@id='day']")).getText());
+        System.out.println(flp.dayDropDown.getFirstSelectedOption().getText());
+        System.out.println(flp.monthDropDown.getFirstSelectedOption().getText());
+        System.out.println(flp.yearDropDown.getFirstSelectedOption().getText());
+
          flp.click1();
+
 
     }
 

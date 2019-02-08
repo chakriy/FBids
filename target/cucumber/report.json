@@ -1,0 +1,170 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3899898333,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "IdButtons In Facebook",
+        "description": "",
+        "id": "capturing-idbuttons-in-facebook-login-page;idbuttons-in-facebook",
+        "after": [
+          {
+            "result": {
+              "duration": 67013,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4112665691,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I Have a Chrome Browser Opened",
+            "match": {
+              "location": "IdCaptureStepDefs.step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 88143,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Facebook Login Page",
+            "match": {
+              "location": "IdCaptureStepDefs.facebookWhen()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91766,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Capture all Id\u0027s in loginPage",
+            "match": {
+              "location": "IdCaptureStepDefs.facebookAnd()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4675543771,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Quit the Chrome Browser",
+            "match": {
+              "location": "IdCaptureStepDefs.facebookThen()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Capturing IdButtons In Facebook Login Page",
+    "description": "",
+    "id": "capturing-idbuttons-in-facebook-login-page",
+    "keyword": "Feature",
+    "uri": "IdCapture.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4572493534,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Opening Multiple pages from Naukri.com",
+        "description": "",
+        "id": "handling-multiple-webpages;opening-multiple-pages-from-naukri.com",
+        "after": [
+          {
+            "result": {
+              "duration": 22941,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5604486487,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Opening the Naukri Homepage",
+            "match": {
+              "location": "WindowHandlingStepDefs.step1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3308045902,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Opening multiple pages from Naukri Homepage",
+            "match": {
+              "location": "WindowHandlingStepDefs.step2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17383812808,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Closing All Windows",
+            "match": {
+              "location": "WindowHandlingStepDefs.step3()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Handling Multiple WebPages",
+    "description": "",
+    "id": "handling-multiple-webpages",
+    "keyword": "Feature",
+    "uri": "WindowHandling.feature"
+  }
+]
