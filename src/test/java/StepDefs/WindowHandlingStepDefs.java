@@ -48,6 +48,9 @@ public class WindowHandlingStepDefs {
                 tabs3 = new ArrayList<String> (driver.getWindowHandles());
                 System.out.println("Set WindowHandles are "+tabs);
                 System.out.println("Hi");
+                System.out.println("Chakri");
+
+
 
                 System.out.println("List WindowHandles after adding are "+tabs2);
                 System.out.println("List WindowHandles are "+tabs3);
