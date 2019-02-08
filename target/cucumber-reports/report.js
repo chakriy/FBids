@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 4243549248,
+  "duration": 24294844953,
   "status": "passed"
 });
 formatter.scenario({
@@ -42,32 +42,32 @@ formatter.match({
   "location": "IdCaptureStepDefs.step()"
 });
 formatter.result({
-  "duration": 3746062536,
+  "duration": 6026006463,
   "status": "passed"
 });
 formatter.match({
   "location": "IdCaptureStepDefs.facebookWhen()"
 });
 formatter.result({
-  "duration": 125574,
+  "duration": 105047,
   "status": "passed"
 });
 formatter.match({
   "location": "IdCaptureStepDefs.facebookAnd()"
 });
 formatter.result({
-  "duration": 69428,
+  "duration": 75465,
   "status": "passed"
 });
 formatter.match({
   "location": "IdCaptureStepDefs.facebookThen()"
 });
 formatter.result({
-  "duration": 4586745560,
+  "duration": 4809925284,
   "status": "passed"
 });
 formatter.after({
-  "duration": 27771,
+  "duration": 33809,
   "status": "passed"
 });
 formatter.uri("WindowHandling.feature");
@@ -79,55 +79,55 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2304119908,
+  "duration": 6196152973,
   "status": "passed"
 });
 formatter.scenario({
   "line": 2,
-  "name": "Opening Multiple pages from Santander",
+  "name": "Opening Multiple pages from Naukri.com",
   "description": "",
-  "id": "handling-multiple-webpages;opening-multiple-pages-from-santander",
+  "id": "handling-multiple-webpages;opening-multiple-pages-from-naukri.com",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
   "line": 3,
-  "name": "Opening the Santander Homepage",
+  "name": "Opening the Naukri Homepage",
   "keyword": "Given "
 });
 formatter.step({
   "line": 4,
-  "name": "opening multiple pages from Santander",
+  "name": "Opening multiple pages from Naukri Homepage",
   "keyword": "When "
 });
 formatter.step({
   "line": 5,
-  "name": "Getting back to Homepage",
+  "name": "Closing All Windows",
   "keyword": "Then "
 });
 formatter.match({
   "location": "WindowHandlingStepDefs.step1()"
 });
 formatter.result({
-  "duration": 5299966313,
+  "duration": 10589962786,
   "status": "passed"
 });
 formatter.match({
   "location": "WindowHandlingStepDefs.step2()"
 });
 formatter.result({
-  "duration": 1634219716,
+  "duration": 3303132222,
   "status": "passed"
 });
 formatter.match({
   "location": "WindowHandlingStepDefs.step3()"
 });
 formatter.result({
-  "duration": 136616485,
+  "duration": 17371625505,
   "status": "passed"
 });
 formatter.after({
-  "duration": 21734,
+  "duration": 25960,
   "status": "passed"
 });
 });
